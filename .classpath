@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/tirum/zookeeperRunSpace/apachezookeeper/lib/zookeeper-3.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tirum/zookeeperRunSpace/apachezookeeper/lib/zookeeper-jute-3.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tirum/zookeeperRunSpace/apachezookeeper/lib/audience-annotations-0.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tirum/zookeeperRunSpace/apachezookeeper/lib/commons-cli-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tirum/zookeeperRunSpace/apachezookeeper/lib/jackson-annotations-2.9.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tirum/zookeeperRunSpace/apachezookeeper/lib/jackson-core-2.9.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tirum/zookeeperRunSpace/apachezookeeper/lib/jackson-databind-2.9.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tirum/zookeeperRunSpace/apachezookeeper/lib/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tirum/zookeeperRunSpace/apachezookeeper/lib/jetty-http-9.4.17.v20190418.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tirum/zookeeperRunSpace/apachezookeeper/lib/jetty-io-9.4.17.v20190418.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tirum/zookeeperRunSpace/apachezookeeper/lib/jetty-security-9.4.17.v20190418.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tirum/zookeeperRunSpace/apachezookeeper/lib/jetty-server-9.4.17.v20190418.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tirum/zookeeperRunSpace/apachezookeeper/lib/jetty-servlet-9.4.17.v20190418.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tirum/zookeeperRunSpace/apachezookeeper/lib/jetty-util-9.4.17.v20190418.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tirum/zookeeperRunSpace/apachezookeeper/lib/jline-2.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tirum/zookeeperRunSpace/apachezookeeper/lib/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tirum/zookeeperRunSpace/apachezookeeper/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tirum/zookeeperRunSpace/apachezookeeper/lib/netty-buffer-4.1.42.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tirum/zookeeperRunSpace/apachezookeeper/lib/netty-codec-4.1.42.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tirum/zookeeperRunSpace/apachezookeeper/lib/netty-common-4.1.42.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tirum/zookeeperRunSpace/apachezookeeper/lib/netty-handler-4.1.42.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tirum/zookeeperRunSpace/apachezookeeper/lib/netty-resolver-4.1.42.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tirum/zookeeperRunSpace/apachezookeeper/lib/netty-transport-4.1.42.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tirum/zookeeperRunSpace/apachezookeeper/lib/netty-transport-native-epoll-4.1.42.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tirum/zookeeperRunSpace/apachezookeeper/lib/netty-transport-native-unix-common-4.1.42.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tirum/zookeeperRunSpace/apachezookeeper/lib/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tirum/zookeeperRunSpace/apachezookeeper/lib/slf4j-log4j12-1.7.25.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

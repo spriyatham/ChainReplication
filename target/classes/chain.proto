@@ -1,0 +1,62 @@
+syntax = "proto3";
+option java_multiple_files = true;
+option java_package = "edu.sjsu.cs249.chain";
+
+package chain;
+
+service HeadChainReplica {
+   rpc increment(IncRequest) returns (HeadResponse);
+}
+
+
+message IncRequest {
+   string key = 1;
+   // if the key does not exist, it will be created with this value, otherwise the value
+   // if the existing key will be incremented by this value
+   int32 incValue = 2;
+}
+
+message HeadResponse {
+   // rc = 0 means success, rc = 1 i'm not the head
+   uint32 rc = 1;
+}
+
+service TailChainReplica {
+    rpc get(GetRequest) returns (GetResponse);
+}
+
+message GetRequest {
+    string key = 1;
+}
+
+message GetResponse {
+   // rc = 0 means success, rc = 1 i'm not the tail
+    uint32 rc = 1;
+    int32 value = 2;
+}
+
+service Replica {
+    rpc update(UpdateRequest) returns (UpdateResponse);
+    rpc stateTransfer(StateTransferRequest) returns (StateTransferResponse);
+    rpc ack(AckRequest) returns (AckResponse);
+}
+
+message UpdateRequest {
+    string key = 1;
+    int32 newValue = 2;
+    uint32 xid = 3;
+}
+message UpdateResponse {
+}
+message StateTransferRequest {
+    map<string, uint32> state = 1;
+    uint32 xid = 2;
+    repeated UpdateRequest sent = 3;
+}
+message StateTransferResponse {
+}
+message AckRequest {
+    uint32 xid = 1;
+}
+message AckResponse {
+}
